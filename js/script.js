@@ -314,7 +314,7 @@ const arena = create_game_environment(18, 26);
 const player = {
   pos: { x: 0, y: 0 },
   pieces: null,
-  score: 2400,
+  score: 0,
 };
 
 player_random_piece();
