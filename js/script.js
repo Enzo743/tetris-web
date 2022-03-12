@@ -31,7 +31,7 @@ function update_score() {
 }
 
 function version_game() {
-  document.getElementById("version").innerText = "Version: 2.0";
+  document.getElementById("version").innerText = "Version: 2.0.1";
 }
 
 function lines_sweep() {
@@ -173,6 +173,7 @@ function player_random_piece() {
   if (collision(arena, player)) {
     arena.forEach((row) => row.fill(0));
     audioDefeat.muted = false;
+    audio.playbackRate = 1;
     audio.muted = true;
     audioDefeat.play();
     alert("Vous avez perdu ! Retentez votre chance tout de suite !");

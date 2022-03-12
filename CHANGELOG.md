@@ -14,3 +14,7 @@
     - Modification de la taille de la page du Tetris
     - Equilibrage de la vitesse de drop des pièces
     - Une icone à été rajoutée sur les pages web
+
+# Changelog de la version 2.0.1 du Tetris:
+
+- Correction de bug sur la musique d'ambiance où son accélération était toujours présente après la défaite (#0002)
